@@ -1,0 +1,1 @@
+A JavaScript UI library built using prototypes. Features: a variety of CSS styles for HTML elements; interactive UI elements such as sliders, accordions, modal windows, tabs, buttons, and dropdown menus; JS manipulations such as class additions/removals, attribute additions/removals, etc.
