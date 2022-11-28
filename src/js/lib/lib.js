@@ -8,7 +8,7 @@ import "./modules/effects";
 import "./components/dropdown";
 import "./components/modal";
 import "./components/tab";
-import "./components/accordeon";
+import "./components/accordion";
 import "./components/carousel";
 import "./services/requests";
 

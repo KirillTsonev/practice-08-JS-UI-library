@@ -1,6 +1,6 @@
 import $ from "../core";
 
-$.prototype.accordeon = function(headActive = "accordeon-head--active", contentActive = "accordeon-content--active", paddings = 40) {
+$.prototype.accordion = function(headActive = "accordion-head--active", contentActive = "accordion-content--active", paddings = 40) {
     for (let i = 0; i < this.length; i++) {
         $(this[i]).click(() => {
             $(this[i]).toggleClass(headActive);
@@ -15,4 +15,4 @@ $.prototype.accordeon = function(headActive = "accordeon-head--active", contentA
     }
 };
 
-$(".accordeon-head").accordeon();
+$(".accordion-head").accordion();
